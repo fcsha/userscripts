@@ -1,0 +1,14 @@
+{
+  "name": "userscripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rolldown -c --watch",
+    "build": "rolldown -c",
+    "fmt": "oxfmt ."
+  },
+  "devDependencies": {
+    "oxfmt": "^0.56.0",
+    "rolldown": "^1.1.3"
+  }
+}
